@@ -1,0 +1,12 @@
+---
+layout: default
+---
+<h1>{{ page.title }}</h1>
+<p class="meta">
+  {{ page.medium }}{% if page.year %}, {{ page.year }}{% endif %}
+  {% if page.dimensions %}<br>{{ page.dimensions }}{% endif %}
+</p>
+
+{{ content }}
+
+<p><a href="/portfolio/{{ page.type }}/">&larr; Back to {{ page.type | capitalize }}</a></p>
