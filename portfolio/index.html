@@ -24,6 +24,10 @@ title: "My portfolio"
     color: #666;
     margin: 0 0 0.5rem;
   }
+  .work .description {
+    font-size: 0.85rem;
+    line-height: 1.4;
+  }
 </style>
 
 <div class="work-grid">
@@ -34,7 +38,8 @@ title: "My portfolio"
       <p class="meta">
         {{ work.medium }}{% if work.year %}, {{ work.year }}{% endif %}
       </p>
-      <div>{{ work.content }}</div>
+      <div class="description">{{ work.content }}</div>
     </div>
   {% endfor %}
 </div>
+
