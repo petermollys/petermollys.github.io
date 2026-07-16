@@ -1,7 +1,7 @@
 .category-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));
+  gap: 1.5rem;
   margin-top: 1.5rem;
 }
 .category-tile {
@@ -12,8 +12,8 @@
 }
 .category-tile img {
   width: 100%;
-  height: 220px;
-  object-fit: cover;
+  height: 160px;
+  object-fit: contain;
   border-radius: 4px;
   display: block;
 }
@@ -24,13 +24,14 @@
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-  gap: 2rem;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 1.5rem;
   margin-top: 1.5rem;
 }
 .work img {
   width: 100%;
-  height: auto;
+  max-height: 220px;
+  object-fit: contain;
   display: block;
   border-radius: 4px;
 }
@@ -44,6 +45,6 @@
   margin: 0 0 0.5rem;
 }
 .work .description {
-  font-size: 0.4rem;
+  font-size: 0.85rem;
   line-height: 1.4;
 }
