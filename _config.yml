@@ -3,5 +3,5 @@ markdown: kramdown
 permalink: /blog/:year/:month/:day/:title
 
 collections:
-works:
-output: false
+  works:
+    output: false
