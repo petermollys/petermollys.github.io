@@ -24,20 +24,20 @@
 
 .work-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 1.5rem;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 1rem;
   margin-top: 1.5rem;
 }
 .work img {
   width: 100%;
-  max-height: 220px;
+  height: 160px;
   object-fit: contain;
   display: block;
   border-radius: 4px;
 }
 .work h2 {
   margin: 0.5rem 0 0.2rem;
-  font-size: 1.1rem;
+  font-size: 1rem;
 }
 .work .meta {
   font-size: 0.9rem;
@@ -45,6 +45,6 @@
   margin: 0 0 0.5rem;
 }
 .work .description {
-  font-size: 0.85rem;
+  font-size: 0.4rem;
   line-height: 1.4;
 }
