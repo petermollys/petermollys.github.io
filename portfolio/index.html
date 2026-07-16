@@ -2,44 +2,24 @@
 layout: default
 title: "My portfolio"
 ---
-<style>
-  .work-grid {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
-    gap: 2rem;
-    margin-top: 1.5rem;
-  }
-  .work img {
-    width: 100%;
-    height: auto;
-    display: block;
-    border-radius: 4px;
-  }
-  .work h2 {
-    margin: 0.5rem 0 0.2rem;
-    font-size: 1.1rem;
-  }
-  .work .meta {
-    font-size: 0.9rem;
-    color: #666;
-    margin: 0 0 0.5rem;
-  }
-  .work .description {
-    font-size: 0.4rem;
-    line-height: 1.4;
-  }
-</style>
+<link rel="stylesheet" href="/css/portfolio.css">
+<h1>{{ page.title }}</h1>
 
-<div class="work-grid">
-  {% for work in site.works %}
-    <div class="work">
-      <img src="{{ work.image }}" alt="{{ work.title }}">
-      <h2>{{ work.title }}</h2>
-      <p class="meta">
-        {{ work.medium }}{% if work.year %}, {{ work.year }}{% endif %}
-      </p>
-      <div class="description">{{ work.content }}</div>
-    </div>
-  {% endfor %}
+<div class="category-grid">
+  <a class="category-tile" href="/portfolio/knit/">
+    <img src="/images/categories/knit.jpg" alt="Knit">
+    <h2>knit</h2>
+  </a>
+  <a class="category-tile" href="/portfolio/sketchbook/">
+    <img src="/images/categories/sketchbook.jpg" alt="Sketchbook">
+    <h2>sketchbook</h2>
+  </a>
+  <a class="category-tile" href="/portfolio/writing/">
+    <img src="/images/categories/writing.jpg" alt="Writing">
+    <h2>writing</h2>
+  </a>
+  <a class="category-tile" href="/portfolio/miscellany/">
+    <img src="/assets/images/categories/miscellany.jpg" alt="miscellany">
+    <h2>miscellany</h2>
+  </a>
 </div>
-
