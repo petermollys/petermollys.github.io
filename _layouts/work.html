@@ -7,6 +7,8 @@ layout: default
   {% if page.dimensions %}<br>{{ page.dimensions }}{% endif %}
 </p>
 
-{{ content }}
+<div class="work-content">
+  {{ content }}
+</div>
 
 <p><a href="/portfolio/{{ page.type }}/">&larr; Back to {{ page.type | capitalize }}</a></p>
