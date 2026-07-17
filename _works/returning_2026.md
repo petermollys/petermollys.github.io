@@ -6,40 +6,70 @@ type: writing
 layout: work
 ---
 a second
+
 even less than that
+
 stretching out like elastic
+
 all around you clear
+
 and still as stone
 
+
 the ice snaps your lungs liquid tight
+
 gasping to shoot through
+
 the birth canal of wide open horizon
 
+
 maybe the heart
+
 learned to pump blood
+
 by first pumping salt water
+
 swim to be born to swim to be born to be 
 
+
 the amniotic brine tastes like tears
+
 and the truth they carry 
+
 the salt blooms across your shoulders
+
 as you low tide sun dry and petal redden with
+
 the silky kelp strands 
+
 and the little pebbles with their whisper secrets
 
+
 it is a gift to know you can start again
+
 exactly as you are.
+
 hold your breath,
+
 shut your eyes, 
+
 count to three and
+
 
 splash
 
+
 falling or flying or floating
 
+
 and taking the first breath
+
 fresh with damp skin
+
 again 
+
 again
+
 however many times 
+
 it takes
